@@ -134,7 +134,7 @@ class _MyAppState extends State<InputData> {
                   title: const Text('Thanks!'),
                   content: const Text('nim atau nama tidak boleh kosong'),
                   actions: <Widget>[
-                    FlatButton(
+                    TextButton(
                       onPressed: () {
                         Navigator.pop(context);
                       },
